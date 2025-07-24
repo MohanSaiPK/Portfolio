@@ -23,7 +23,7 @@ import {
   SiPython,
 } from "react-icons/si";
 import virtusaLogo from "../assets/workLogo/virtusa_logo.jpeg";
-import wrexaLogo from "../assets/workLogo/wrexa.png";
+import wrexaLogo from "../assets/workLogo/wrexa_logo.jpg";
 // More specific tech icons
 
 export const personalInfo = {

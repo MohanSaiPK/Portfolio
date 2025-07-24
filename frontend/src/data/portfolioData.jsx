@@ -21,7 +21,10 @@ import {
   SiPostman,
   SiDjango,
   SiPython,
-} from "react-icons/si"; // More specific tech icons
+} from "react-icons/si";
+import virtusaLogo from "../assets/workLogo/virtusa_logo.jpeg";
+import wrexaLogo from "../assets/workLogo/wrexa.png";
+// More specific tech icons
 
 export const personalInfo = {
   name: "Mohan Sai PK",
@@ -35,6 +38,7 @@ export const personalInfo = {
 };
 export const workExperience = [
   {
+    image: virtusaLogo,
     company: "Virtusa",
     position: "Full Stack Developer Intern",
     duration: "May 2023 – Aug 2023",
@@ -42,6 +46,7 @@ export const workExperience = [
       "Developed a full-stack task management application enabling real-time collaboration and progress tracking. Built secure, responsive UIs with React.js, and implemented JWT-based role-based access using Spring Boot and Django REST APIs. Employed JUnit and Maven for testing and build automation, ensuring reliable code and efficient delivery.",
   },
   {
+    image: wrexaLogo,
     company: "Wrexa Technologies",
     position: "SDE-1",
     duration: "March 2024 – Feb 2025",

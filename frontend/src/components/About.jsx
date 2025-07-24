@@ -57,9 +57,16 @@ const About = () => {
                 custom={index}
                 viewport={{ once: true, amount: 0.2 }}
               >
-                <h4 className="text-xl font-semibold text-text-primary">
-                  {work.company}
-                </h4>
+                <div className="flex items-center mb-3 space-x-4">
+                  <img
+                    src={work.image}
+                    alt={work.company}
+                    className=" h-10 rounded-xl"
+                  />
+                  <h4 className="text-xl font-semibold text-text-primary">
+                    {work.company}
+                  </h4>
+                </div>
                 <p className="text-text-secondary font-medium">
                   {work.position}
                 </p>

@@ -23,7 +23,7 @@ import {
   SiPython,
 } from "react-icons/si";
 import virtusaLogo from "../assets/workLogo/virtusa_logo.jpeg";
-import wrexaLogo from "../assets/workLogo/wrexa_logo.jpg";
+// import wrexaLogo from "../assets/workLogo/wrexa_logo.jpg";
 // More specific tech icons
 
 export const personalInfo = {
@@ -43,16 +43,16 @@ export const workExperience = [
     position: "Full Stack Developer Intern",
     duration: "May 2023 – Aug 2023",
     description:
-      "Developed a full-stack task management application enabling real-time collaboration and progress tracking. Built secure, responsive UIs with React.js, and implemented JWT-based role-based access using Spring Boot and Django REST APIs. Employed JUnit and Maven for testing and build automation, ensuring reliable code and efficient delivery.",
+      "Built responsive, component-based UIs using React.js, JavaScript, and Tailwind CSS, ensuring consistent performance across devices. Integrated frontend with RESTful APIs, implemented JWT authentication, and developed features like dashboards, filters, and dynamic views to enhance user experience.Collaborated with cross-functional teams in an agile environment, participated in code reviews, and followed best practices for maintainable, scalable code. Delivered end-to-end features, handled error states, and worked on CI/CD pipelines for smooth and timely deployments.Gained practical experience in debugging, state management, and improving application reliability through testing and iteration.",
   },
-  {
+  /* {
     image: wrexaLogo,
     company: "Wrexa Technologies",
     position: "SDE-1",
     duration: "March 2024 – Feb 2025",
     description:
       "Built scalable, responsive interfaces using React.js, JavaScript, and Tailwind CSS, integrating seamlessly with RESTful APIs. Delivered full-stack features including dynamic dashboards, filtering, real-time updates, and secure JWT authentication. Contributed to CI/CD pipelines, participated in agile teams, and maintained high-quality, reusable code across deployments.",
-  },
+  }, */
 ];
 
 export const education = [
